@@ -29,5 +29,11 @@ function divide(a, b) {
 function operate(operator, numberA, numberB) {
     if (operator === "+" ) {
        return add(numberA, numberB);
+    } else if (operator === "-" ) {
+       return subtract(numberA, numberB);
+    } else if (operator === "*" ) {
+       return multiply(numberA, numberB);
+    } else if (operator === "/" ) {
+       return divide(numberA, numberB);
     }
 }
