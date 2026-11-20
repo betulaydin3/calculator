@@ -1,0 +1,69 @@
+
+/* QUEST 1: Centreer je calculator */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f3f0ff;
+    font-family: Arial, sans-serif;
+}
+
+/* QUEST 2: Calculator container */
+
+.calculator {
+    width: 320px;
+    padding: 20px;
+
+    background-color: white;
+    border-radius: 32px;
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* QUEST 3: Calculator display */
+
+.display {
+    padding: 20px;
+    margin-bottom: 16px;
+
+    background-color: #ede9fe;
+    border-radius: 10px;
+
+    text-align: right;
+    font-size: 30px;
+}
+
+/* QUEST 4: Button layout */
+
+.buttons {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 10px;
+}
+
+/* QUEST 5: Style alle buttons */
+
+button {
+    padding: 18px;
+
+    border: 2px solid purple;
+    border-radius: 10px;
+
+    background-color: #ddd6fe;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+/* QUEST 6: Hover effect */
+
+button:hover {
+    background-color: purple;
+}
